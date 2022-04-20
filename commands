@@ -16,5 +16,8 @@
 	git remote add origin {url}
 	git branch -M main
 	git push -u origin main
-
+# After modifying a file:
+	git add .
+	git commit -m "added new task"
+	git push -u orign main
 
