@@ -4,4 +4,17 @@
 	git config --global user.email "{email}"
 # Initialize reporsitory:
 	git init
+# Add folder to git:
+	git add .
+# Add certain file:
+	git add {file}
+# See the status of git:
+	git status
+# Commit file:
+	git commit -m "firt commit:"
+# Push to github:
+	git remote add origin {url}
+	git branch -M main
+	git push -u origin main
+
 
